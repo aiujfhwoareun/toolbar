@@ -1,2 +1,4 @@
 layout:
-  - Arch
+  - ArchStarter
+  - StructStarter
+  - MechStarter
