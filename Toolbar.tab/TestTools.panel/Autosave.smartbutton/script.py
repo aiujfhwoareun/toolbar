@@ -43,7 +43,7 @@ def config_autosave_interval():
         default=default_interval,
         prompt="Set autosave interval in minutes:",
         title="Autosave Interval",
-        min=5,
+        min=1,
         max=240,
     )
     if interval:
