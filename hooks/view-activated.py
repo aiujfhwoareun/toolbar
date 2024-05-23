@@ -35,6 +35,6 @@ if user_config.autosave.get_option("enabled") and is_project and savefile_exists
             ) as pb:
                 pb.update_progress(1, 1)
                 doc.Save()
-#       except:
-#            pass
+       except:
+            pass
 ##### Autosave
